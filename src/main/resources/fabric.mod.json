@@ -12,6 +12,11 @@
   },
   "license": "MIT",
   "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.RinFMC.RinFConfigLib.client.RinFMC"
+    ]
+  },
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",

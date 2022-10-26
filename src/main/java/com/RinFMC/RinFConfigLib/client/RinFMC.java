@@ -1,6 +1,9 @@
 package com.RinFMC.RinFConfigLib.client;
 
-public final class RinFMC {
-    private RinFMC() {
+import net.fabricmc.api.ClientModInitializer;
+
+public final class RinFMC implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
     }
 }
